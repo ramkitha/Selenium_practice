@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-09T21:45:58 EST" name="GGAutomationSuite" finished-at="2021-03-09T21:46:05 EST" duration-ms="7143">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T21:45:58 EST" name="Regression1" finished-at="2021-03-09T21:46:05 EST" duration-ms="7143">
+      <class name="demo.ParameterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.ParameterTest@19d37183]" started-at="2021-03-09T21:45:58 EST" name="setUp" finished-at="2021-03-09T21:46:01 EST" duration-ms="2637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.ParameterTest@19d37183]" started-at="2021-03-09T21:46:01 EST" name="login" finished-at="2021-03-09T21:46:04 EST" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://glamgalzqa.konverge.net/wp-admin/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[konvergedevelopment@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.ParameterTest@19d37183]" started-at="2021-03-09T21:46:04 EST" name="tearDown" finished-at="2021-03-09T21:46:05 EST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.ParameterTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- GGAutomationSuite -->
+</testng-results>
